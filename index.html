@@ -327,21 +327,21 @@
                         ./images/banking-app.jpg    1x,
                         ./images/banking-app@2x.png 2x
                       "
-                      media="(min-width: 1200px)"
+                      media="(min-width: 1158px)"
                     />
                     <source
                       srcset="
                         ./images/banking-app-tablet.jpg    1x,
                         ./images/banking-app-tablet@2x.jpg 2x
                       "
-                      media="(min-width: 767px)"
+                      media="(min-width: 768px)"
                     />
                     <source
                       srcset="
                         ./images/banking-app-mobile.jpg    1x,
                         ./images/banking-app-mobile@2x.jpg 2x
                       "
-                      media="(max-width: 767px)"
+                      media="(max-width: 768px)"
                     />
                     <img src="./images/banking-app.jpg" alt="banking app" />
                   </picture>
@@ -639,7 +639,8 @@
     </footer>
 
     <!-- ==============MODAL-FORM============== -->
-    <div class="backdrop is-open">
+    <!--  is-open -->
+    <div class="backdrop">
       <div class="modal">
         <button class="modal-close-btn" type="button">
           <svg
@@ -758,7 +759,8 @@
       </div>
     </div>
     <!-- ==============MOBILE-MENU============ -->
-    <div class="mobile-menu-wrapper is-open">
+    <!--  is-open -->
+    <div class="mobile-menu-wrapper">
       <div class="container mobile-menu-container">
         <button class="mobile-menu-close-btn">
           <svg
@@ -773,7 +775,7 @@
         <nav class="mobile-menu-navigation">
           <ul class="mobile-menu">
             <li class="mobile-menu-item">
-              <a class="mobile-menu-link" href="">Studio</a>
+              <a class="mobile-menu-link link-color" href="">Studio</a>
             </li>
             <li class="mobile-menu-item">
               <a class="mobile-menu-link" href="">Portfolio</a>
@@ -784,11 +786,13 @@
           </ul>
           <ul class="mobile-contact-list">
             <li class="mobile-contact-list-item">
-              <a class="mobile-contact-list-link" href="tel:+110001111111"
+              <a
+                class="mobile-contact-list-link link-color"
+                href="tel:+110001111111"
                 >+11 (000) 111-11-11</a
               >
             </li>
-            <li class="mobile-contact-item">
+            <li class="mobile-contact-list-item">
               <a
                 class="mobile-contact-list-link"
                 href="mailto:info@devstudio.com"
